@@ -1,0 +1,16 @@
+.hero__socials .icons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.hero__socials img {
+  width: 80px;
+  filter: invert(0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.hero__socials img:hover {
+  cursor: pointer;
+  filter: invert(1);
+}

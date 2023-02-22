@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+* {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+}
+
+nav ul li {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* hero  */
+.hero__greeting__wrapper span {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 700;
+}
+.hero__title h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 7rem;
+
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,25 @@
+header {
+  /* outline: 1px solid aqua; */
+  height: 5.2rem;
+}
+
+nav {
+  position: relative;
+  background: var(--background-color);
+  z-index: 1;
+  border: 1px solid white;
+  width: auto;
+  height: 2rem;
+  padding-block: 1rem;
+}
+
+nav li {
+  display: inline;
+  padding-inline: 2.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+nav li:hover {
+  cursor: pointer;
+  color: var(--hover-text-color);
+}
